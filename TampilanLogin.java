@@ -115,7 +115,7 @@ public class TampilanLogin extends javax.swing.JFrame {
         String pw = new String(pwPF.getPassword());
         
         if(user.trim().isEmpty() || pw.trim().isEmpty()){
-            JOptionPane.showMessageDialog(this, "Username and Passord cannot be empty!", 
+            JOptionPane.showMessageDialog(this, "Username and Password cannot be empty!", 
                     "Warning", JOptionPane.WARNING_MESSAGE);
             return;
         }
